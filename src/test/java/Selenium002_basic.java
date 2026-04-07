@@ -1,6 +1,6 @@
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class Selenium002 {
+public class Selenium002_basic {
     public static void main(String[] args) {
 
         FirefoxDriver driver = new FirefoxDriver();
