@@ -4,7 +4,7 @@
     <test name="Assertion check">
 
         <classes>
-            <class name="ex_02_Selenium_Basics.TestSelenium005_Assertion_TestNG"/>
+            <class name="ex_03_Selenium_Locators.TestSelenium010_First_MiniProject"/>
         </classes>
 
     </test>

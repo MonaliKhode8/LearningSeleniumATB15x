@@ -1,3 +1,5 @@
+package ex_01_Selenium;
+
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Selenium001 {

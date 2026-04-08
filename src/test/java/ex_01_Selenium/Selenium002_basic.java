@@ -1,3 +1,5 @@
+package ex_01_Selenium;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class Selenium002_basic {
