@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 @Test
-public class TestSelenium010_MiniProject01 {
+public class TestSelenium012_MiniProject01 {
 
     public void test_vwo_com() throws InterruptedException{
         // ---Mini Project #1 (Selenium)----

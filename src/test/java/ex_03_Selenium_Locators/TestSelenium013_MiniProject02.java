@@ -9,12 +9,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 
 
-public class TestSelenium010_MiniProject02  {
+public class TestSelenium013_MiniProject02 {
 
   @Owner("Monali")
   @Severity(SeverityLevel.BLOCKER)
