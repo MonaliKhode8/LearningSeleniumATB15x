@@ -61,17 +61,7 @@ public class TestSelenium016_MiniProject05 {
         WebElement dashboard = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/aside/div[2]/nav/button[1]"));
         dashboard.click();
 
-        Thread.sleep(5000);
-
-        driver.quit();
-
-
-
-
-
-
-
-
+        //driver.quit();
 
     }
 
