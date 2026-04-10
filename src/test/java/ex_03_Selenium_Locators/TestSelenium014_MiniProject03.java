@@ -1,5 +1,6 @@
 package ex_03_Selenium_Locators;
 
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +8,17 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+//Go - https://katalon-demo-cura.herokuapp.com/
+//Click on the Make appointment button, enter the username , password given
+//Verify that the Make appointment
+
+
 public class TestSelenium014_MiniProject03 {
+    @Owner("Monali")
+    @Severity(SeverityLevel.BLOCKER)
+    @TmsLink("https://monalikhode028.atlassian.net/browse/SCRUM-5")
+    @Description("Verify that error message comes with invalid email or signup")
+    // ----- command to check the allure report --- allure serve allure-results
 
     @Test
     public void katlon_test(){
