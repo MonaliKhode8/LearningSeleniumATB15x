@@ -14,10 +14,7 @@ import org.testng.annotations.Test;
 
 
 public class TestSelenium014_MiniProject03 {
-    @Owner("Monali")
-    @Severity(SeverityLevel.BLOCKER)
-    @TmsLink("https://monalikhode028.atlassian.net/browse/SCRUM-5")
-    @Description("Verify that error message comes with invalid email or signup")
+
     // ----- command to check the allure report --- allure serve allure-results
 
     @Test
@@ -45,7 +42,7 @@ public class TestSelenium014_MiniProject03 {
        WebElement make_appointment_text = driver.findElement(By.tagName("h2"));
        Assert.assertTrue(make_appointment_text.isDisplayed());
 
-
+       driver.quit();
 
 
     }

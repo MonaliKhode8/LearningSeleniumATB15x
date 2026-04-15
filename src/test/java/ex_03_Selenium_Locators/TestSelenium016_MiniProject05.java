@@ -8,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestSelenium016_MiniProject05 {
@@ -61,7 +62,13 @@ public class TestSelenium016_MiniProject05 {
         WebElement dashboard = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/aside/div[2]/nav/button[1]"));
         dashboard.click();
 
-        //driver.quit();
+        String updated_balanceText = driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[2]/main/div/div/div[1]/div[1]/div[1]/div[1]/h3")).getText();
+
+        Assert.assertEquals(updated_balanceText,"$45,000.00");
+
+        Thread.sleep(4000);
+
+        driver.quit();
 
     }
 
