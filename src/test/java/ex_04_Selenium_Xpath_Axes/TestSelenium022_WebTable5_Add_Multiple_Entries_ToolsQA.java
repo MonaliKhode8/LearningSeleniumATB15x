@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class Test {
+public class TestSelenium022_WebTable5_Add_Multiple_Entries_ToolsQA {
 
     public static void main(String[] args) throws Exception {
 
