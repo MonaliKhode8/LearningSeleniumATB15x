@@ -1,4 +1,4 @@
-package ex_04_Selenium_Xpath_Axes;
+package ex_04_Selenium_Xpath;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
